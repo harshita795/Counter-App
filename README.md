@@ -1,6 +1,10 @@
 # Counter-App
 A Counter Application which provides the ```counter of the numbers at the event onclick of the buttons.```
 
+![7x1gsu](https://github.com/harshita795/Counter-App/assets/73014908/5e3042a3-ec84-479f-9882-7c61ebe2dbd9)
+
+
+
  Steps to get it on your local machine:--
 
 Just clone the repo after fork from this repo to your account.

@@ -3,7 +3,7 @@ A Counter Application which provides the ```counter of the numbers at the event 
 
 ![7x1gsu](https://github.com/harshita795/Counter-App/assets/73014908/5e3042a3-ec84-479f-9882-7c61ebe2dbd9)
 
-
+[MP4] https://github.com/harshita795/Counter-App/assets/73014908/ef36d0c5-500a-4e45-b59b-c969fcd116a1
 
  Steps to get it on your local machine:--
 

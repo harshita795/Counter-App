@@ -15,23 +15,42 @@
         
         const counter = document.querySelector('#counter')
         counter.textContent = count
-      
-        
-        if(count < 0){
-          const color = ['#cd5c5c','green','#fffof5','#add8e6','pink','gray','purple','cyan','fuchsia','brown','coral','crimson','indigo','teal','olive','maroon','antiqueWhite','azure','beige','cadetBlue','chocolate','DarkSlateBlue'];
 
-            const colorIndex = parseInt(Math.random()*color.length)
-            counter.style.color = color[colorIndex]
+       
+
+        if(count < 0){
+            
+          const color = ['Cornflowerblue','Green','Navy','Lime','Pink','Gray','Purple','Cyan','Fuchsia','Brown','Coral','Crimson','Indigo','Teal','Olive','Maroon','NntiqueWhite','Blueviolet','Darkcyan','CadetBlue','Chocolate','DarkSlateBlue'];
+            const colorIndex = parseInt(Math.random()*color.length);
+            counter.style.color = color[colorIndex];
+            const colorName = String(color[colorIndex]);
+            const nameColor = document.querySelector('#color-name')
+            document.querySelector('#color-name').innerHTML= colorName;
+            nameColor.style.color = color[colorIndex];
+            const name = document.querySelector('.name')
+            name.style.color = color[colorIndex];
+           
         }
         else if(count > 0){
-          const color = ['#cd5c5c','green','#fffof5','#add8e6','pink','gray','purple','cyan','fuchsia','brown','coral','crimson','indigo','teal','olive','maroon','antiqueWhite','azure','beige','cadetBlue','chocolate','DarkSlateBlue'];
+            const color = ['Lightsalmon','Lightcoral','Greenyellow','Goldenrod','Floralwhite','Deeppink','Darkseagreen','Darkorange','Darkkhaki','Cornsilk','Cornflowerblue','Green','Navy','Lime','Pink','Gray','Purple','Cyan','Fuchsia','Brown','Coral','Crimson','Indigo','Teal','Olive','Maroon','NntiqueWhite','Blueviolet','Darkcyan','CadetBlue','Chocolate','DarkSlateBlue'];
 
-            const colorIndex = parseInt(Math.random()*color.length)
-            counter.style.color = color[colorIndex]
+            const colorIndex = parseInt(Math.random()*color.length);
+            counter.style.color = color[colorIndex];
+            const colorName = String(color[colorIndex]);
+            const nameColor = document.querySelector('#color-name')
+            document.querySelector('#color-name').innerHTML= colorName;
+            nameColor.style.color = color[colorIndex];
+            const name = document.querySelector('.name')
+            name.style.color = color[colorIndex];
+
+            
         }
         else{
             counter.style.color = '#333333'
+            
         }
+
+        
     })
   })
 })()

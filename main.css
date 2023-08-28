@@ -27,12 +27,14 @@ body,html{
 
 .name{
     font-size: 3rem;
+    color:white;
 
 }
 
 #counter{
     font-size: 5rem;
     margin-bottom: 1rem;
+    color:white;
 }
 
 .prevBtn, .nextBtn{
